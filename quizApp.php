@@ -29,9 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($userAnswer == $q["answer"]) {
             $score++;
-            $result[$index] = "✅ Correct";
+            $result[$index] = " Correct";
         } else {
-            $result[$index] = "❌ Wrong (Correct: " . $q["answer"] . ")";
+            $result[$index] = " Wrong (Correct: " . $q["answer"] . ")";
         }
     }
 }
