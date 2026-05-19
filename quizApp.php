@@ -63,10 +63,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php } ?>
 
     <?php
-    if (isset($result[$index])) {
+     if (isset($result[$index])) {
         echo "<p>" . $result[$index] . "</p>";
-    }
-    ?>
+     }
+     ?>
 
     <hr>
 
